@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+ }
+body{
+  font-family:"Comic Sans", cursive;
+}
+ #header-nav {
+  border: 2px solid black;
+  background-color: #C0C0C0;
+  border-radius: 0;
+text-align: left;
+}
+.navbar-brand h2 { /*name */
+  color: black;
+  font-size: 1.3em;/*увеличишрифт*/
+  font-weight: bold;/*жирность*/
+  margin: 0px;
+  padding: 0px;
+  line-height: .75;/*уменьшили высоту линии*/
+  
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+#nav-list a {
+  background-color: white;
+  color: black;/*every link in menu has color and center*/
+  text-align: center;
+  font-size: 1.4em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;/*мышь над меню*/
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+
+}
+
+ .row {
+  width: 100%;
+}
+
+}
+ @media (min-width: 992px){
+.jumbotron{
+  background: white;
+  border: 1px solid white;
+}
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.jumbotron{
+  background: white;
+  border: 1px solid white;
+}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+.jumbotron{
+  background: white;
+  border: 1px solid white;
+}
+
+}
+
+
+
+h3 {
+text-align: center;
+font-family:"Comic Sans", cursive;
+}
+
+
+#box {
+  
+  background-color: #C0C0C0;
+  width: 100%;
+  height: 310px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: auto;
+  position: relative;
+  overflow: auto;
+ }
+ #box li{
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  font-family:"Comic Sans", cursive;
+  font-size: 17px;
+  margin-left: 15px;
+ }
+
+#box #p1 {
+  float: right;
+  border: 1px solid black;
+  background-color: #FFC0CB;
+  width: 100px;
+  height: 25px;
+  font-family: "Comic Sans", cursive;
+  font-size: 19px;
+  text-align: center;
+  vertical-align: center; 
+  color: black;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+#box #p2 {
+  position: absolute;
+  border: 1px solid black;
+  background-color: #DC143C;
+  width: 100px;
+  height: 25px;
+  font-family: "Comic Sans", cursive;
+  font-size: 19px;
+  text-align:center;
+  vertical-align: center;
+  color: black;
+   right: 0%;
+   top: 0%;
+}
+#box #p3 {
+  position: absolute;
+  border: 1px solid black;
+  background-color: #F0E68C;
+  width: 100px;
+  height: 25px;
+  font-family: "Comic Sans", cursive;
+  font-size: 19px;
+  text-align:center;
+  vertical-align: center;
+  color: black;
+   right: 0%;
+   top: 0%;
+}
+#box p{
+position: absolute;
+left: 0%;
+top: 0%;
+font-family:"Comic Sans", cursive;
+margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 19px;
+}
